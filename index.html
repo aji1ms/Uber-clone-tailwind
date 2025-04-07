@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div class="flex justify-between bg-black w-full h-24">
+
+        <div>
+            <ul class="flex text-white ml-40 text-lg font-medium">
+                <li class="mr-8 text-white text-4xl  mt-6">Uber</li>
+                <li class="mr-4  mt-8">Ride</li>
+                <li class="mr-4  mt-8">Drive</li>
+                <li class="mr-4  mt-8">Business</li>
+                <li class="mr-4  mt-8">About</li>
+            </ul>
+        </div>
+
+        <div class="mr-20">
+            <ul class="flex text-white text-lg font-medium">
+                <li class="mr-8  mt-8">EN</li>
+                <li class="mr-8  mt-8">Help</li>
+                <li class="mr-8  mt-8">Login</li>
+                <li class="bg-white px-4 py-2 text-black border border rounded-full  mt-6">SignUp</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="flex justify-center">
+
+        <div class="w-1/2 h-100 ml-44">
+
+            <h1 class="text-7xl font-bold mt-16">Go anywhere with Uber</h1>
+
+            <div class="flex flex-col mt-12">
+                <div class="mb-4"><input
+                        class="bg-gray-100 placeholder-black text-xl pl-4 w-[480px] h-16 border rounded-md" type="text"
+                        placeholder="Pickup location"></div>
+                <div class="mb-4"><input
+                        class="bg-gray-100 placeholder-black text-xl pl-4 w-[480px] h-16 border rounded-md" type="text"
+                        placeholder="Drop location"></div>
+                <div class="mb-4"><input
+                        class="bg-gray-100 placeholder-black text-xl pl-4 w-[240px] h-16 border rounded-md mr-2"
+                        type="date" placeholder="Today">
+                    <input class="b-grey-100 placeholder-black text-xl pl-4 w-[228px] h-16 border rounded-md"
+                        type="time" placeholder="Now">
+                </div>
+            </div>
+
+            <button class=" bg-black px-8 py-4 text-white text-lg font-medium border rounded-xl mr-8">See
+                prices</button>
+            <h1 class="ml-62 underline text-xl text-gray-600 mb-24 inline">Log in to see your recent activity</h1>
+
+        </div>
+
+        <div class="w-1/2">
+            <div class="flex mt-20">
+                <iframe class="w-[680px] h-[650px] mr-48" loading="lazy" allowfullscreen
+                    referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.491072382808!2d76.31953097450916!3d10.058788472021414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080dd5ecf171e9%3A0x3cec0f9158e9f24c!2sKalamassery%20Metro%20Station!5e0!3m2!1sen!2sin!4v1743104190849!5m2!1sen!2sin">
+                </iframe>
+            </div>
+        </div>
+
+    </div>
+
+    <h1 class="text-6xl mt-16 ml-44 font-bold">Suggestions</h1>
+
+    <div class="flex ml-44">
+        <div class="bg-slate-100 w-[400px] h-48 mt-12 border rounded relative">
+            <h1 class="mt-4 ml-4 text-2xl font-medium">Ride</h1>
+            <p class="mt-4 ml-4">Go anywhere with Uber. Request a ride, hop in, and go.</p>
+            <img class="absolute top-4 right-0 w-32" src="ride.png" alt="">
+            <button class="bg-white border rounded-full px-4 py-2 mt-4 ml-4 font-medium">Details</button>
+        </div>
+        <div class="bg-slate-100 w-[400px] h-48 mt-12 ml-8 border rounded relative">
+            <h1 class="mt-4 ml-4 text-2xl font-medium">Reserve</h1>
+            <p class="mt-4 ml-4">Reserve your ride in advance so you can relax on the day of your trip.</p>
+            <img class="absolute top-4 right-0 w-32" src="reserve_clock.png" alt="">
+            <button class="bg-white border rounded-full px-4 py-2 mt-4 ml-4 font-medium">Details</button>
+        </div>
+    </div>
+
+
+    <div class="flex mt-40 ml-44">
+        <div class="w-1/2 h-[500px]">
+            <h1 class="font-bold text-5xl mt-12">Log in to see your recent activity</h1>
+            <p class="mt-12 text-2xl color text-gray-600">View past trips, tailored suggestions, support
+                resources,and more.</p>
+            <button class="mt-8 bg-black text-white px-8 py-4 border rounded-lg text-2xl">Log in to your
+                account</button>
+            <p class="mt-8 text-gray-600 underline text-2xl">Don't have an Uber account?Sign up</p>
+        </div>
+        <div class="w-1/2 h-[490px] mr-48">
+            <img src="Airport-Fall.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="ml-44 mt-44">
+        <div class="flex mt-12">
+            <div class="w-1/2">
+                <img class="border rounded-3xl" src="earner-illustra.jpg" alt="">
+            </div>
+            <div class="w-1/2 h-[700px] mr-40">
+                <h1 class="text-5xl font-bold ml-32 mt-64">Drive when you want, make what you need</h1>
+                <p class="ml-32 mt-8 text-2xl text-gray-600">Make money on your schedule with deliveries or
+                    rides—orboth. You can use your own car or choose a rental through Uber.
+                </p>
+                <button class="ml-32 mt-8 bg-black text-white px-8 py-4 border rounded-lg text-2xl">Get Started</button>
+                <h1 class="ml-8 underline text-xl text-gray-600 mb-24 inline">Already have an account? Sign in</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex ml-44 mt-44">
+        <div class="w-1/2 h-[700px]">
+            <h1 class="text-5xl font-bold mt-64">The Uber you know,reimagined for business</h1>
+            <p class="mt-8 text-2xl text-gray-600">Uber for Business is a platform for managing global rides
+                and meals,
+                and local deliveries, for companies
+                of any size.</p>
+            <button class="mt-8 bg-black text-white px-8 py-4 border rounded-lg text-2xl">Get Started</button>
+            <h1 class="ml-8 underline text-xl text-gray-600 mb-24 inline">Check out our solutions</h1>
+
+        </div>
+        <div class="w-1/2 mr-60">
+            <img class="border rounded-3xl" src="u4b-square.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="ml-44 mt-44">
+        <div class="flex mt-12">
+            <div class="w-1/2">
+                <img class="border rounded-3xl" src="fleet-management.jpg" alt="">
+            </div>
+            <div class="w-1/2 h-[700px] mr-64">
+                <h1 class="text-5xl font-bold ml-36 mt-64">Make money by renting out your car</h1>
+                <p class="ml-36 mt-8 text-2xl text-gray-600">Connect with thousands of drivers and earn more per week
+                    with Uber’s free fleet management tools.
+                </p>
+                <button class="ml-36 mt-8 bg-black text-white px-8 py-4 border rounded-lg text-2xl">Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-gray-100 mt-28 w-full h-[450px]">
+        <h1 class="text-5xl font-bold ml-44 pt-24 mb-16">It's easier in the apps</h1>
+        <div class="flex ml-44">
+            <div class="bg-white w-[750px] h-48 mr-8">
+                <img class="w-36 h-36 mt-6 ml-6 inline" src="Uber-App.jpg" alt="">
+                <h1 class="font-bold text-4xl ml-8 inline">Download the Uber App</h1>
+                <p class="ml-8">Scan to download</p>
+            </div>
+            <div class="bg-white w-[750px] h-48">
+                <img class="w-36 h-36 mt-6 ml-6 inline" src="Uber-App.jpg" alt="">
+                <h1 class="font-bold text-4xl ml-8 inline">Download the Driver App</h1>
+                <p class="ml-8">Scan to download</p>
+            </div>
+        </div>
+    </div>
+    <div class="h-full bg-black">
+        <h1 class="font-medium text-white text-3xl ml-44 pt-40">Uber</h1>
+        <p class="text-white ml-44 mt-12 text-2xl">Visit Help Center</p>
+
+        <div class="flex ml-44 mt-28">
+            <div>
+                <ul class="text-white mr-56">
+                    <li class="text-bold text-2xl">Company</li>
+                    <li class="text-lg mt-6">About US</li>
+                    <li class="text-lg mt-2">Our offering</li>
+                    <li class="text-lg mt-2">Newsroom</li>
+                    <li class="text-lg mt-2">Investors</li>
+                    <li class="text-lg mt-2">Blog</li>
+                    <li class="text-lg mt-2">Careers</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="text-white mr-56">
+                    <li class="text-bold text-2xl">Products</li>
+                    <li class="text-lg mt-6">Ride</li>
+                    <li class="text-lg mt-2">Drive</li>
+                    <li class="text-lg mt-2">Deliver</li>
+                    <li class="text-lg mt-2">Eat</li>
+                    <li class="text-lg mt-2">Uber for business</li>
+                    <li class="text-lg mt-2">Uber freight</li>
+                    <li class="text-lg mt-2">Gift cards</li>
+                    <li class="text-lg mt-2">Uber Health</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="text-white mr-56">
+                    <li class="text-bold text-2xl">Global citizenship</li>
+                    <li class="text-lg mt-6">Safety</li>
+                    <li class="text-lg mt-2">Sustainability</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="text-white">
+                    <li class="text-bold text-2xl">Travel</li>
+                    <li class="text-lg mt-6">Reserve</li>
+                    <li class="text-lg mt-2">Airports</li>
+                    <li class="text-lg mt-2">CitiesF</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="flex ml-44 mt-28">
+            <img class="w-8 h-8 mr-20" src="facebook.jpg" alt="">
+            <img class="w-8 h-8 mr-20" src="linke in.jpg" alt="">
+            <img class="w-12 h-8 mr-20" src="instagram.jpg" alt="">
+          </div>
+
+          <div class="ml-40 mt-12">
+            <img src="download the app.png" alt="">
+            <p class="text-white mt-12 pb-20">© 2025 Uber Technologies Inc.</p>
+          </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
