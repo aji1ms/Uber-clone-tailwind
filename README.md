@@ -1,7 +1,7 @@
 # Uber Clone - Tailwind CSS
 
 🚖 A static clone of the Uber homepage built using **Tailwind CSS**.  
-This project focuses on layout structure and Tailwind utility classes.
+This project focuses on layout structure and Tailwind.
 
 ## 🚧 Status
 
